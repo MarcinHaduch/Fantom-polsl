@@ -1,0 +1,85 @@
+body {
+  position:relative;
+  font-size:1.2em;
+}
+.bgimage {
+  background-image: url(../img/green-tree-python-python-tree-python-green-45246.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  
+
+}
+.bgimage h1 {
+  color: white;
+}
+.navbar{
+  -webkit-box-shadow: 0px 2px 25px 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 25px 4px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 25px 4px rgba(0,0,0,0.2);
+  
+}
+.navbar-brand .page-logo {
+  max-width: 150px;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar .navbar-nav li {
+  margin-right:10px;
+  margin-left: 10px;
+}
+.navbar .navbar-nav li:hover {
+ border-bottom: 2px solid rgba(255,255,255,.75);
+}
+.navbar .navbar-nav li a {
+  text-align: center
+  
+}
+.active {
+  border-bottom: 2px solid #FFFFFF
+}
+.article {
+  padding-top: 48px;
+  padding-bottom: 30px;
+}
+.icons {
+  text-align: center;
+}
+.icons img {
+  max-width: 100px;
+  width:70%
+  
+}
+.team-icons{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.avatar img{
+  max-width: 150px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.navbar{
+  
+  margin-bottom: 30px;
+}
+.row.icon-element {
+  padding-bottom: 30px;
+}
+.icons{
+  margin-bottom: 50px;
+}
+footer{
+  height: 200px;
+      background-color:#212529;
+}
+@media only screen and (min-width: 992px) {
+  .team-icons{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
