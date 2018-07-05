@@ -78,6 +78,9 @@ footer{
       background-color:#212529;
 }
 @media only screen and (min-width: 992px) {
+  .team-headline{
+    max-width:1000px;
+  }
   .team-icons{
     padding-left: 100px;
     padding-right: 100px;
