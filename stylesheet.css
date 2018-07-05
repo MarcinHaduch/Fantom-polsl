@@ -3,7 +3,7 @@ body {
   font-size:1.2em;
 }
 .bgimage {
-  background-image: url(/img/placeholder.png);
+  background-image: url(https://raw.githubusercontent.com/MarcinHaduch/Fantom-polsl/master/img/placeholder.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
